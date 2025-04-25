@@ -1,0 +1,21 @@
+header {
+  background-color: burlywood;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: black;
+  color: azure;
+  font-size: 4vw;
+  font-family: Verdana, Tahoma, sans-serif;
+}
