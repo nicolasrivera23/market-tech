@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 header {
-  background-color: burlywood;
+  background-color: #005CB4;
   font-size: 4vw;
   text-align: center;
+  color: white;
 }
 
 .nav-list {
@@ -10,12 +14,51 @@ header {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 footer {
   background-color: black;
-  color: azure;
+  color: white;
   font-size: 4vw;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: 'Cal Sans', Verdana, Tahoma, sans-serif;
+}
+
+.abs {
+  width: 300px;
+  height: 300px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.porc {
+  width: 50%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  font-size: 5vw;
+}
+
+.span1 {
+  border: 2px solid green;
+}
+.span2 {
+  border: 2px dotted red;
+}
+
+.texto-inicial {
+  font-family: Roboto, Verdana, Tahoma, sans-serif;
+  text-align: center;
+  background-color: chocolate;
+  color: black;
+  border-radius: 10px;
+}
+
+.caja1 {
+  border: 2px solid blue;
+  padding: 20px 40px;
+}
+
+.caja2 {
+  border: 2px ridge green;
+  margin: 5%;
 }
