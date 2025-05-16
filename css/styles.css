@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+
 header {
   background-color: #005CB4;
   font-size: 4vw;
@@ -8,8 +14,15 @@ header {
   color: white;
 }
 
+.contenedor-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 5px;
 }
 
 a {
@@ -48,17 +61,52 @@ footer {
 .texto-inicial {
   font-family: Roboto, Verdana, Tahoma, sans-serif;
   text-align: center;
-  background-color: chocolate;
-  color: black;
+  background-color: #005CB4;
+  color: white;
   border-radius: 10px;
+  padding: 5%;
 }
 
-.caja1 {
-  border: 2px solid blue;
-  padding: 20px 40px;
+.tit-form {
+  text-align: center;
+  font-family: 'Cal Sans', Verdana, Tahoma, sans-serif;
 }
 
-.caja2 {
-  border: 2px ridge green;
-  margin: 5%;
+.prod-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 2px solid #005CB4;
+}
+.formulario {
+  border: 2px solid #005CB4;
+  background-color: rgba(0, 92, 180, 0.5);
+  color: blue;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: center;
+  font-family: 'Cal Sans', Verdana, Tahoma, sans-serif;
+}
+
+.boton {
+  border-radius: 10px;
+  background-color: rgba(0, 92, 180, 0.9);
+  color: azure;
+}
+
+.boton:hover {
+  background-color: green;
+  color: white;
+}
+
+textarea {
+  color: black;
+}
+
+.footer-contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
