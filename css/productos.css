@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway, Verdana, Tahoma, sans-serif;
+  font-size: clamp(16px, 8vw, 32px);
+}
+
+.contenedor_producto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: gray;
+  padding: 32px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.card {
+  max-width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.button {
+  font-size: 27px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #e3eae0;
+  border: 2px solid green;
+  color: green;
+  border-radius: 10px;
+  font-size: 33px;
+}
+
+.description {
+  margin-top: 18px;
+}
+
+.imagen {
+  border-radius: 10px;
+  height: 200px;
+  width: 275px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer_uno {
+  background-color: white;
+  color: black;
+}
+.footer_dos {
+  background-color: black;
+}
